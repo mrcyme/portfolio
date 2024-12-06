@@ -16,8 +16,8 @@ const config = {
 
 
   url: 'https://mrcyme.github.io', // Your website URL
-  baseUrl: '/',
-  projectName: 'endiliey.github.io',
+  baseUrl: '/portfolio/', // Base URL for your project */
+  projectName: 'mrcyme.github.io',
   organizationName: 'mrcyme',
   trailingSlash: false,
 
