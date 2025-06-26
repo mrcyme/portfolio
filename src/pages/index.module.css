@@ -4,21 +4,304 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #1F2E3C
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+  background-color: #1b6354;
+  background-image: 
+    linear-gradient(135deg, rgba(13, 75, 62, 0.8) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(13, 75, 62, 0.8) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(13, 75, 62, 0.8) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(13, 75, 62, 0.8) 25%, #0d4b3e 25%);
+  background-position: 
+    -40px 0,
+    -40px 0,
+    0 0,
+    0 0;
+  background-size: 80px 80px;
+  background-repeat: repeat;
+  color: #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.profileSection {
+  flex: 0 0 300px;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1.5rem;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.chineseName {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #a0aec0;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.affiliation {
+  font-size: 1.1rem;
+  color: #a0aec0;
+  margin-bottom: 1.5rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socialLink {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.socialLink:hover {
+  color: #63b3ed;
+}
+
+.mainSection {
+  flex: 1;
+  padding: 1rem;
+}
+
+.aboutSection {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.cvButton {
+  background-color: #006BD3;
+  border-color: #2d3748;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.cvButton:hover {
+  background-color: #4a5568;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.interestsList {
+  list-style-type: '• ';
+  padding-left: 1.2rem;
+}
+
+.interestsList li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.educationList {
+  list-style: none;
+  padding: 0;
+}
+
+.educationList li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.educationIcon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #63b3ed;
+}
+
+.educationList li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.educationList li span {
+  font-size: 1rem;
+  color: #a0aec0;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  list-style: none;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  bottom: 10px;
+  width: 4px;
+  background: #4a5568;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timelineItem::before {
+  content: '';
+  position: absolute;
+  left: -29px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #63b3ed;
+  border: 4px solid #1b6354;
+  z-index: 1;
+}
+
+.timelineContent {
+  position: relative;
+  background: rgba(45, 55, 72, 0.7);
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: #e2e8f0;
+}
+
+.timelineTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #fff;
+}
+
+.timelineCompany {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  color: #a0aec0;
+}
+
+.timelineDate {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #a0aec0;
+}
+
+.timelineContent ul {
+  padding-left: 20px;
+  margin-top: 1rem;
+}
+
+.timelineContent ul li {
+  margin-bottom: 0.5rem;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skillCategory {
+  width: 100%;
+}
+
+.skillCategory h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #a0aec0;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skillTag {
+  background-color: #2d3748;
+  color: #e2e8f0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.languageSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.languageSkill {
+  flex-grow: 1;
+  min-width: 180px;
+}
+
+.languageSkill p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.languageSkill span {
+  font-style: italic;
+  color: #a0aec0;
+  font-size: 0.9rem;
+}
+
+.progressBar {
+  background-color: #2d3748;
+  border-radius: 8px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #63b3ed;
+  height: 100%;
+  border-radius: 8px;
+  transition: width 1s ease-in-out;
 }

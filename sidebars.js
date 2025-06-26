@@ -22,6 +22,7 @@ const sidebars = {
   Prototyping: ['prototyping/crane', 'prototyping/penplotter', 'prototyping/tuftingrobot'],
 
   Art: ['art/stylegantattoos', 'art/paintings', 'art/videos', 'art/jewelery'],
+  Workshops: ['workshops/generativeaiworkshops'],
 
   // But you can create a sidebar manually
   /*

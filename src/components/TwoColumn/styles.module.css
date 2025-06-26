@@ -1,0 +1,24 @@
+.twoColumnContainer {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+}
+
+.column img {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* On smaller screens, stack the columns */
+@media (max-width: 768px) {
+  .twoColumnContainer {
+    flex-direction: column;
+  }
+} 

@@ -70,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
@@ -102,6 +102,12 @@ const config = {
             label: 'Art',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'Workshops',
+            position: 'left',
+            label: 'Workshops',
+          },
+          {
             href: 'https://github.com/mrcyme',
             label: 'GitHub',
             position: 'right',
@@ -109,7 +115,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Portfolio',
@@ -125,6 +131,10 @@ const config = {
               {
                 label: 'Art',
                 to: '/docs/art/stylegantattoos',
+              },
+              {
+                label: 'Workshops',
+                to: '/docs/workshops/generativeaiworkshops.md',
               },
             ],
           
