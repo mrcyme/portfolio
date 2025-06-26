@@ -35,7 +35,7 @@ function HomepageHeader() {
             From artificial intelligence, robotics, prototyping and creative technologies, I am a breadth-first learner driven by an
             insatiable curiosity. Every now and then, I like to dive deep into subjects that ignite my passion. 
             
-            Be it working at the highest levels of abstraction or soldering a 100\muF capacitor to a PCB, I thrive in environments that blend
+            Be it working at the highest levels of abstraction or soldering a 100µF capacitor to a PCB, I thrive in environments that blend
             intellectual challenges with hands-on craftsmanship. I am a quick learner, always looking for new challenges.
             </p>
             <Link className={clsx('button button--secondary button--lg', styles.cvButton)} to="#">
