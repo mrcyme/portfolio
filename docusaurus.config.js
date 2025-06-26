@@ -134,7 +134,7 @@ const config = {
               },
               {
                 label: 'Workshops',
-                to: '/docs/workshops/generativeaiworkshops.md',
+                to: '/docs/workshops/generativeaiworkshops',
               },
             ],
           
