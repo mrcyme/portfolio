@@ -32,7 +32,11 @@ function HomepageHeader() {
           <div className={styles.aboutSection}>
             <Heading as="h2" className={styles.sectionTitle}>About Me</Heading>
             <p>
-              Siméon Michel is me
+            From artificial intelligence, robotics, prototyping and creative technologies, I am a breadth-first learner driven by an
+            insatiable curiosity. Every now and then, I like to dive deep into subjects that ignite my passion. 
+            
+            Be it working at the highest levels of abstraction or soldering a 100\muF capacitor to a PCB, I thrive in environments that blend
+            intellectual challenges with hands-on craftsmanship. I am a quick learner, always looking for new challenges.
             </p>
             <Link className={clsx('button button--secondary button--lg', styles.cvButton)} to="#">
               <FaDownload style={{ marginRight: '8px' }} /> Download CV
@@ -54,8 +58,8 @@ function HomepageHeader() {
               <div className={styles.section}>
                 <Heading as="h2" className={styles.sectionTitle}>Education</Heading>
                 <ul className={styles.educationList}>
-                  <li><FaGraduationCap className={styles.educationIcon} /> <div>MEng Computer Science and Engineering<span>Massachusetts Institute of Technology</span></div></li>
-                  <li><FaGraduationCap className={styles.educationIcon} /> <div>BSc Engineering<span>Massachusetts Institute of Technology</span></div></li>
+                  <li><FaGraduationCap className={styles.educationIcon} /> <div>MEng Computer Science and Engineering<span>Université Libre de Bruxelles</span></div></li>
+                  <li><FaGraduationCap className={styles.educationIcon} /> <div>BSc Engineering<span>Université Libre de Bruxelles</span></div></li>
                 </ul>
               </div>
             </div>

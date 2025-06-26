@@ -15,6 +15,10 @@ import VideoGallery from '@site/src/components/VideoGallery';
 
 ## ⏱️ Duration 
 - 2h to 4h
+
+## 🗣️ Languages
+- French or English
+
 ## 📝 Description
 
 The Generative AI workshops offer an engaging platform for exploring the multifaceted world of AI and how its different technologies can impact the creative industry. They not only enhance participants' creativity and AI awareness but also stimulate discussions on biases inherent in AI, as well as ethical considerations surrounding generative AI. 
