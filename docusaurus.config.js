@@ -87,19 +87,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'Robotics',
             position: 'left',
-            label: 'Robotics',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'Prototyping',
-            position: 'left',
-            label: 'Prototyping',
+            label: 'Robotics & Prototyping',
           },
           {
             type: 'docSidebar',
             sidebarId: 'Art',
             position: 'left',
-            label: 'Art',
+            label: 'Art & Media',
           },
           {
             type: 'docSidebar',
@@ -123,10 +117,6 @@ const config = {
               {
                 label: 'Robotics',
                 to: '/docs/robotics/swarm',
-              },
-              {
-                label: 'Prototyping',
-                to: '/docs/prototyping/crane',
               },
               {
                 label: 'Art',

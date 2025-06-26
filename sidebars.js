@@ -16,10 +16,7 @@
  */
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  Robotics: ['robotics/swarm', 'robotics/tictactoe'],
-
-
-  Prototyping: ['prototyping/crane', 'prototyping/penplotter', 'prototyping/tuftingrobot'],
+  Robotics: ['robotics/swarm', 'robotics/tictactoe', "robotics/penplotter", "robotics/crane", "robotics/tuftingrobot"],
 
   Art: ['art/stylegantattoos', 'art/paintings', 'art/videos', 'art/jewelery'],
   Workshops: ['workshops/generativeaiworkshops'],

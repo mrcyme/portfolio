@@ -22,10 +22,10 @@ function HomepageHeader() {
           <p className={styles.title}>R&D Engineer</p>
           <p className={styles.affiliation}>FARI AI for the common good institute</p>
           <div className={styles.socialLinks}>
-            <Link to="#" className={styles.socialLink}><MdEmail /></Link>
+            <Link to="mailto:simeonmcl@gmail.com" className={styles.socialLink}><MdEmail /></Link>
             <Link to="#" className={styles.socialLink}><FaInstagram /></Link>
-            <Link to="#" className={styles.socialLink}><FaGithub /></Link>
-            <Link to="#" className={styles.socialLink}><FaLinkedin /></Link>
+            <Link to="https://github.com/mrcyme" className={styles.socialLink}><FaGithub /></Link>
+            <Link to="https://www.linkedin.com/in/simeon-michel-469333134/" className={styles.socialLink}><FaLinkedin /></Link>
           </div>
         </div>
         <div className={styles.mainSection}>
