@@ -15,8 +15,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
 
-  url: 'https://mrcyme.github.io', // Your website URL
-  baseUrl: '/portfolio/', // Base URL for your project */
+  url: 'https://simeonmichel.netlify.app', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   projectName: 'mrcyme.github.io',
   organizationName: 'mrcyme',
   trailingSlash: false,
