@@ -19,7 +19,7 @@ function HomepageHeader() {
             <img src="https://content.fari.brussels/media/0f9d56315ccdf6a28108a651-simeon-2-scaled.jpg" alt="Siméon Michel"/>
           </div>
           <Heading as="h1" className={styles.name}>Siméon Michel</Heading>
-          <p className={styles.title}>R&D engineer</p>
+          <p className={styles.title}>R&D Engineer</p>
           <p className={styles.affiliation}>FARI AI for the common good institute</p>
           <div className={styles.socialLinks}>
             <Link to="#" className={styles.socialLink}><MdEmail /></Link>
