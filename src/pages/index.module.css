@@ -305,3 +305,19 @@
   border-radius: 8px;
   transition: width 1s ease-in-out;
 }
+
+@media (max-width: 996px) {
+  .container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .profileSection {
+    flex: 1;
+    padding-bottom: 0;
+  }
+
+  .mainSection {
+    padding-top: 0;
+  }
+}
