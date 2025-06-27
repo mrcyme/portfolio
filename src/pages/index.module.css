@@ -320,4 +320,8 @@
   .mainSection {
     padding-top: 0;
   }
+
+  .skillTag {
+    white-space: normal;
+  }
 }
