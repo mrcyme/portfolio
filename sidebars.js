@@ -18,7 +18,7 @@ const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   Robotics: ['robotics/swarm', 'robotics/tictactoe', "robotics/penplotter", "robotics/crane", "robotics/tuftingrobot"],
 
-  Art: ['art/stylegantattoos', 'art/paintings', 'art/videos', 'art/jewelery'],
+  Art: ['art/paintings', 'art/stylegantattoos', 'art/videos', 'art/jewelery'],
   Workshops: ['workshops/generativeaiworkshops'],
 
   // But you can create a sidebar manually

@@ -6,7 +6,7 @@ import VideoGallery from '@site/src/components/VideoGallery';
 # Robot painting
 <TwoColumn>
 <div>
-<img src={useBaseUrl('/img/IMG20250629173859.jpg')} alt="Collage" />
+<img src={useBaseUrl('/img/tab1.jpg')} alt="Collage" />
 </div>
 <img src={useBaseUrl('/img/collage.jpg')} alt="Collage" />
 </TwoColumn>

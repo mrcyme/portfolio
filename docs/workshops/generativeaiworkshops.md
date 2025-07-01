@@ -2,54 +2,69 @@ import TwoColumn from '@site/src/components/TwoColumn';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import VideoGallery from '@site/src/components/VideoGallery';
 
-# Generative AI for the creative industry
+# Generative AI for the Creative Industry
 
 <TwoColumn>
 <div>
-
 ## 🎯 Target Audience 
 
-- Fashion and Creative industry
-- Advertising industry
-- Media Industry
+- Fashion and creative industries  
+- Advertising industry  
+- Media industry  
 
 ## ⏱️ Duration 
 - 2h to 4h
-
+</div>
+<div>
 ## 🗣️ Languages
 - French or English
 
+## 📧 Contact 
+simeon.michel@fari.brussels  
+academy@fari.brussels
+</div>
+</TwoColumn>
+<TwoColumn>
+<div>
+
+
+
+
 ## 📝 Description
 
-The Generative AI workshops offer an engaging platform for exploring the multifaceted world of AI and how its different technologies can impact the creative industry. They not only enhance participants' creativity and AI awareness but also stimulate discussions on biases inherent in AI, as well as ethical considerations surrounding generative AI. 
+The goal of this workshop is to offer an engaging platform for exploring the multifaceted world of AI and how its various technologies can impact the creative industry.  
+Participants will be introduced to a range of AI tools, with a focus on understanding their key parameters and learning how to use them effectively.
 
+In addition to hands-on exploration, the workshop will provide guidance on keeping up with the rapid evolution of AI technologies, helping participants distinguish truly valuable tools from passing trends or noise.
 
 </div>
 <img src={useBaseUrl('/img/moi.jpg')} alt="Workshop Facilitator" />
 </TwoColumn>
 
-In concrete terms,  you will be asked in groups to write, create, and edit a short animated movie using a collection of AI tools. These tools include a chatbot for the creation of the script. Text-to-image models for creating the frames, image-to-video models for the animation of the frames and text-to-speech or music generation tools for the audio generation.
+In concrete terms, participants will work in groups to write, create, and edit a short animated movie using a collection of AI tools. These include a chatbot for scriptwriting, text-to-image models for frame creation, image-to-video models to animate those frames, and text-to-speech or music generation tools for producing the audio track.
 
-The format and theme of the generated content, as well as the technology involved, can be customized for each customer. 
-Other technologies that can be covered: 
+The format and theme of the generated content, as well as the tools used, can be customized for each client.  
+Other technologies that can be covered include:
 
-- 3D asset generation
-- Gaussian splatting
-
+- 3D asset generation  
+- 3D scanning  
+- Gaussian splatting  
 
 <TwoColumn>
 <div>
 
 ## 📜 Workshop Sequence
-- A quick theory session about the technology that will be used during the workshop. The content can be adapted to the technical awareness of the audience. The goal is to give a general intuition about the technology used rather than giving an in-depth theory explanation.
 
-- A practical session during which groups are formed and work on the given task.
+- *(Optional)* A short theory session introducing the technologies used in the workshop. The content can be adapted to the audience’s level of technical familiarity. The aim is to provide a general intuition rather than an in-depth theoretical explanation.
 
-- A final group discussion, where we showcase the results from each team, facilitating a dialogue addressing issues of bias, ethics, and copyright in AI-generated content.
+- A hands-on session during which participants form groups and work on their animated movies.
+
+- A closing group discussion where each team presents its result, opening a conversation around bias, ethics, and copyright in AI-generated content.
 
 ## 💻 Material
-Ideally, each participant should have a laptop. 
-One laptop per group of 3/4 people is also possible but less desirable.
+
+Ideally, each participant should have their own laptop.  
+One laptop per group of 3–4 people is also possible, though less ideal.
 
 </div>
 <div>
